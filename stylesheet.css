@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit; 
+} 
+a {
+    text-decoration: none;
+    padding: 2%;
+    color: #15AB89;
+    font-size: 10px;
+    font-family: 'Questrial', sans-serif;
+
+}
+#bamboo {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: #093009;
+}
+
+@media only screen and (min-width: 397px) {
+    img {
+        width: 1030px;
+        height: 800px;
+        border-right: 1px solid #B47419;
+        margin: 1%;
+        padding: 110px;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: inherit; 
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+    }
+    a {
+        font-size: 15px;
+    }
+
+}
